@@ -1,0 +1,12 @@
+name = "cfr2-proxy"
+main = "./src/index.ts"
+compatibility_date = "2023-08-23"
+
+[vars]
+account_id = "<YOUR_ACCOUNT_ID>"
+access_key_id = "<YOUR_ACCESS_KEY_ID>"
+secret_access_key = "<YOUR_SECRET_ACCESS_KEY>"
+
+[[r2_buckets]]
+binding = 'R2'
+bucket_name = '<YOUR_BUCKET_NAME>'

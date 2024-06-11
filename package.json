@@ -1,0 +1,26 @@
+{
+  "name": "cfr2-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rubickecho",
+  "license": "ISC",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "typescript"
+    ]
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240605.0",
+    "wrangler": "^3.60.1"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.18"
+  }
+}

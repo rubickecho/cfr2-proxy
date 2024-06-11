@@ -1,0 +1,7 @@
+node_modules
+.idea
+.vscode
+wrangler.toml
+.wrangler
+.nvmrc
+.DS_Store
